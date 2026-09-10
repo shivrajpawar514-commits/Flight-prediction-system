@@ -1,0 +1,74 @@
+{
+  "Stacking Ensemble": {
+    "r2": 0.8499,
+    "adj_r2": 0.8463,
+    "rmse": 1705.85,
+    "mae": 1170.51,
+    "medae": 711.1,
+    "mape": 13.26,
+    "train_time_sec": 5.43,
+    "infer_latency_ms": 0.123,
+    "cv_r2_mean": 0.828,
+    "cv_r2_std": 0.0246
+  },
+  "Random Forest": {
+    "r2": 0.8498,
+    "adj_r2": 0.8462,
+    "rmse": 1706.64,
+    "mae": 1128.4,
+    "medae": 616.4,
+    "mape": 12.74,
+    "train_time_sec": 0.535,
+    "infer_latency_ms": 0.006,
+    "cv_r2_mean": 0.8111,
+    "cv_r2_std": 0.0278
+  },
+  "Extra Trees": {
+    "r2": 0.8353,
+    "adj_r2": 0.8314,
+    "rmse": 1787.05,
+    "mae": 1136.8,
+    "medae": 540.11,
+    "mape": 12.65,
+    "train_time_sec": 0.387,
+    "infer_latency_ms": 0.007,
+    "cv_r2_mean": 0.8254,
+    "cv_r2_std": 0.0177
+  },
+  "XGBoost": {
+    "r2": 0.8594,
+    "adj_r2": 0.856,
+    "rmse": 1651.18,
+    "mae": 1151.71,
+    "medae": 752.93,
+    "mape": 13.13,
+    "train_time_sec": 0.734,
+    "infer_latency_ms": 0.001,
+    "cv_r2_mean": 0.8316,
+    "cv_r2_std": 0.0241
+  },
+  "Hist Gradient Boosting": {
+    "r2": 0.8366,
+    "adj_r2": 0.8327,
+    "rmse": 1779.94,
+    "mae": 1205.12,
+    "medae": 829.97,
+    "mape": 13.8,
+    "train_time_sec": 0.975,
+    "infer_latency_ms": 0.004,
+    "cv_r2_mean": 0.8033,
+    "cv_r2_std": 0.024
+  },
+  "Ridge Baseline": {
+    "r2": 0.6432,
+    "adj_r2": 0.6346,
+    "rmse": 2630.5,
+    "mae": 1909.07,
+    "medae": 1442.85,
+    "mape": 23.64,
+    "train_time_sec": 0.005,
+    "infer_latency_ms": 0.0,
+    "cv_r2_mean": 0.6043,
+    "cv_r2_std": 0.0136
+  }
+}
